@@ -1,0 +1,66 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output large temporary files if any
+*.tmp
+*.log
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+*.local
+local.*
+config.local.*
+secrets.*
+secret.*
+credentials.*
+credential.*
+
+# Private keys, certificates, and authentication files
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+*.cer
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*.pub
+
+# Local databases and database exports
+*.db
+*.sqlite
+*.sqlite3
+*.sql.gz
+*.dump
+
+# Private or raw data exports
+*.parquet
+*.feather
+*.pickle
+*.pkl
+*.xlsx
+*.xls
